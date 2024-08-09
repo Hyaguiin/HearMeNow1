@@ -1,0 +1,23 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "main": "audioConverter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node routes & node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.11.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  }
+}
